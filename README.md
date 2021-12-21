@@ -3,8 +3,8 @@
 How to use:
 ```bash
 # build the image
-docker build -t dedalus-longest-dir-name .
+docker build -t longest-dir-name .
 
 # start container from that image
-docker run dedalus-longest-dir-name python3 /src/run.py --starting-point=/
+docker run longest-dir-name python3 /src/run.py --starting-point=/
 ```

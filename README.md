@@ -1,10 +1,10 @@
-> This application traverse a given directory and outputs the longest directory name
+> This application traverses a given directory and outputs the longest directory name
 
 How to use:
 ```bash
 # build the image
-docker build -t longest-dir-name .
+./build-image.sh
 
-# start container from that image
-docker run longest-dir-name python3 /src/run.py --starting-point=/
+# start application
+./start-app.sh
 ```
